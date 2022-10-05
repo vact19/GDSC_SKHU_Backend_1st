@@ -1,8 +1,9 @@
 package member;
 
 /**
- *  isAccessibleToApplications() 구현 강제와
- *  new Member() 인스턴스 생성을 막기 위해 추상 클래스로 생성함.
+ *  isAccessibleToApplications() 추상 메소드의 구현 강제와
+ *  인스턴스 생성을 막기 위해 (new Member())
+ *  추상 클래스로 생성함.
  */
 public abstract class Member {
 
